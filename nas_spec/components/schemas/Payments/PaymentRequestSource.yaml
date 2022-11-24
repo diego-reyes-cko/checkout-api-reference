@@ -38,6 +38,7 @@ discriminator:
     bancontact: '#/components/schemas/PaymentRequestBancontactSource'
     alma: '#/components/schemas/PaymentRequestAlmaSource'
     tamara: '#/components/schemas/PaymentRequestTamaraSource'
+    open_banking: '#/components/schemas/PaymentRequestOpenBankingSource'
 required:
   - type
 properties:

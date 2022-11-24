@@ -34,6 +34,7 @@ discriminator:
     giropay: '#/components/schemas/PaymentGetResponseGiropaySource'
     eps: '#/components/schemas/PaymentGetResponseEPSSource'
     tamara: '#/components/schemas/PaymentResponseTamaraSource'
+    open_banking: '#/components/schemas/PaymentResponseOpenBankingSource'
 required:
   - type
 
