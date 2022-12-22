@@ -1,7 +1,15 @@
 # Changelog
 
 | Date       | Description of change                                                                                                 
-| ---------- |-----------------------------------------------------------------------------------------------------------------------|
+|------------|-----------------------------------------------------------------------------------------------------------------------|
+| 2022/12/15 | Change Platforms schedule `by_day` response samples to use arrays                                                       |
+| 2022/12/15 | Add CV Connect NAS Request and Response source.                                                                       |
+| 2022/12/15 | Add Trustly NAS Request and Response source.                                                                          |
+| 2022/12/15 | Add Illicado NAS Request and Response source.                                                                         |
+| 2022/12/14 | Add missing `available` property to Accounts Individual and Company responses                                         |
+| 2022/12/13 | Remove third-party fields from integrated auth                                                                        |
+| 2022/11/30 | Add API key security to IP endpoints.                                                                                 |
+| 2022/11/29 | Adding prism device_session_id to payment request.                                                                    |
 | 2022/11/24 | Added Open Banking NAS Request and Response source.                                                                   |
 | 2022/11/15 | Adding a `entity` to BankPayoutRequest source.                                                                        |
 | 2022/11/14 | Changing Card Metadata API request format                                                                             |
@@ -100,4 +108,4 @@
 | 2021/11/11 | Added `3ds.challenge_indicator` to card payment requests.                                                             |
 | 2021/11/03 | Adds `identification` object under parent `sender` object in payment request.                                         |
 | 2021/10/18 | Added the `marketplaces.sub-entities` object to support split payments.                                               |
-| 2022/11/09 | Removed the `risk` endpoints                                          |
+| 2022/11/09 | Removed the `risk` endpoints                                                                                          |
