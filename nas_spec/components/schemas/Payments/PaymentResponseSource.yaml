@@ -36,6 +36,7 @@ discriminator:
     cvconnect: '#/components/schemas/PaymentResponseCvConnectSource'
     tamara: '#/components/schemas/PaymentResponseTamaraSource'
     open_banking: '#/components/schemas/PaymentResponseOpenBankingSource'
+    trustly: '#/components/schemas/PaymentResponseTrustlySource'
 required:
   - type
 
